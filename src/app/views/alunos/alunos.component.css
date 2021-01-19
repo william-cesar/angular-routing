@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  padding-top: 2em;
+}
+
+.collection {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin-right: 2em;
+}
+
+.collection-item {
+  background-color: #5b5b5b;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
