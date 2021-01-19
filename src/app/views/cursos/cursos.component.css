@@ -1,3 +1,7 @@
+p {
+  margin-top: 2em;
+}
+
 .collection {
   display: flex;
   flex-direction: column;
@@ -13,4 +17,14 @@
   padding-left: 1em;
   margin-bottom: 20px;
   text-decoration: none;
+}
+
+.btn-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background-color: #ea4863;
 }
