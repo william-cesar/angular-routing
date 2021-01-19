@@ -1,0 +1,8 @@
+<mat-toolbar class="header" role="heading">
+	<ul class="links">
+		<li><a routerLinkActive="active" routerLink="/login">Login</a></li>
+		<li><a routerLinkActive="active" routerLink="/cursos">Cursos</a></li>
+		<li><a routerLinkActive="active" [routerLink]="['/curso', cursoId]">Curso com id</a></li>
+	</ul>
+	<a class="home" routerLink="">Home</a>
+</mat-toolbar>
