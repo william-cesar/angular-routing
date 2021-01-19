@@ -10,6 +10,7 @@ import { AlunosModule } from "./views/alunos/alunos.module";
 import { AppComponent } from "./app.component";
 import { HomeComponent } from "./views/home/home.component";
 import { LoginComponent } from "./views/login/login.component";
+import { NotFoundComponent } from "./views/notFound/not-found.component";
 
 import { HeaderComponent } from "./components/header/header.component";
 
@@ -24,7 +25,13 @@ import { HomeService } from "./services/home.service";
     AlunosModule,
     MatToolbarModule
   ],
-  declarations: [AppComponent, HeaderComponent, HomeComponent, LoginComponent],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    HomeComponent,
+    LoginComponent,
+    NotFoundComponent
+  ],
   providers: [HomeService],
   bootstrap: [AppComponent]
 })

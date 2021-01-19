@@ -1,5 +1,6 @@
 import { NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
+import { MatButtonModule } from "@angular/material/button";
 
 import { AlunosRoutingModule } from "./alunos.routing.module";
 
@@ -10,7 +11,7 @@ import { AlunoDetalheComponent } from "./aluno-detalhe/aluno-detalhe.component";
 import { AlunosService } from "../../services/alunos.service";
 
 @NgModule({
-  imports: [CommonModule, AlunosRoutingModule],
+  imports: [CommonModule, MatButtonModule, AlunosRoutingModule],
   exports: [],
   declarations: [AlunosComponent, AlunoFormComponent, AlunoDetalheComponent],
   providers: [AlunosService]
