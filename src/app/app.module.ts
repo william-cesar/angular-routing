@@ -3,7 +3,7 @@ import { BrowserModule } from "@angular/platform-browser";
 import { FormsModule } from "@angular/forms";
 
 import { AppRoutingModule } from "./app.routing.module";
-import { CursosModule } from "./modules/cursos.module";
+import { CursosModule } from "./views/cursos/cursos.module";
 import { MatToolbarModule } from "@angular/material/toolbar";
 
 import { AppComponent } from "./app.component";
